@@ -1,7 +1,7 @@
 # Properties Scraper
 
 This is a complete scrapy spider which pulls properties data .i.e houses and offices available for rent in Kampala and neighbouring districts.
-The Scraped data containing property price, location, district, bedrooms, bathrooms, status whether its available for rent or sale and agent details are stored in the `tem` directory
+The Scraped data containing property price, location, district, bedrooms, bathrooms, status whether its available for rent or sale and agent details are stored in a temporary directory `tmp` 
 as a `properties.csv` file.
 
 ### Installation
@@ -19,8 +19,8 @@ Install Dependencies.
 pip install requirements.txt
 </pre>
 
-### Running the spider.
-
+### To run the spider.
+Use the command below
 <pre>
 scrapy crawl properties
 </pre>
